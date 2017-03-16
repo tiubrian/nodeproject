@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Utah Weather</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <style>
+    .suggestion {
+        width: 140px;
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+    li {
+        text-decoration: none;
+        list-style-type: none;
+        text-align: center;
+        margin: auto;
+    }
+    img {
+        margin-bottom: 10px;
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="top" class="header">
+
+        <div class="text-vertical-center">
+            <h1>Chat Online</h1>
+            <br>
+
+            <div id="search_bar">
+                <form>
+                    <div class=" input-group-lg">
+                        <input class="form-control" type="text" id="cityfield" autocomplete="off" value="" style="text-align: center;">
+                        <br />
+                        <a id="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target=".bs-example-modal-sm">Add Message</a>
+                    </div>
+                </form>
+            </div>
+
+             
+           <!-- <ul class="list-group"style="max-width: 500px; margin: auto; margin-top: 20px;">--->
+              <span id="suggestion_list"></span>
+            </ul>
+<!--
+            <h2>Chosen City</h2>
+            <div class="panel panel-default"  style="max-width: 200px; margin: auto;">
+              <div class="panel-body" id="city" style="font-size: 1.5em;">
+                City
+              </div>
+            </div>
+
+            <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                    <h2 style="text">Current Weather</h2>
+                    <div id="weather">No weather</div>
+                </div>
+              </div>
+            </div>
+-->
+        </div>
+    </header>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+<!--    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+-->
+</body>
+
+</html>
